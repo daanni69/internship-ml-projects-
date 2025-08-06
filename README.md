@@ -3,15 +3,13 @@
 
 This repository contains the **internship tasks assigned by ARCH Technologies** for the Machine Learning internship (Month 1). The tasks are focused on real-world machine learning problems such as NLP-based spam detection and image classification using MNIST digits.
 
----
-
 ## 📁 Repository Structure
 
 ```
 internship-ml-tasks/
 │
 ├── Task1_Email_Spam_Classifier.ipynb     # Jupyter notebook for email spam detection
-├── Task2_MNIST_Digit_Recognizer.ipynb    # Jupyter notebook for MNIST digit classification (to be added)
+├── Task2_MNIST_Digit_Recognizer.ipynb    # Jupyter notebook for MNIST digit classification (working..)
 ├── model.pkl                             # Trained Logistic Regression model for Task 1
 ├── vectorizer.pkl                        # TF-IDF vectorizer used in Task 1
 ├── streamlit_app.py                      # Streamlit app to deploy Task 1
@@ -27,7 +25,7 @@ internship-ml-tasks/
 To develop a machine learning model that classifies email messages as **Spam** or **Not Spam** using natural language processing.
 
 ### 🔹 Dataset:
-- **Source**: [Kaggle - SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- **Source**: [Kaggle - Spam Collection Dataset]([https://www.kaggle.com/datasets/uciml/sms-spam-collection-datase](https://github.com/daanni69/internship-ml-projects-/blob/main/Spam_Emails.csv))
 - Contains 5728 labeled email samples.
 
 ### 🔹 Approach:
